@@ -1,0 +1,11 @@
+title: "[SPM] Politics Report"
+description: >-
+  SpacePowerMonkey provides this report tracking US politics to the public free of charge.
+baseurl: "/mfpkg-pol-tracker"
+url: "https://www.spacepowermonkey.com"
+
+author:
+  email: contact@spacepowermonkey.com
+
+markdown: kramdown
+remote_theme: spacepowermonkey/monkeyreport
