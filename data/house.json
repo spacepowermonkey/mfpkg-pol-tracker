@@ -1,5 +1,7 @@
 {
     "sessions": [
-        {"congress": 118, "session": 1}
+        {"congress": 118, "session": 1},
+        {"congress": 117, "session": 2},
+        {"congress": 117, "session": 1}
     ]
 }
