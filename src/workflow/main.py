@@ -26,7 +26,7 @@ def _save_index(index, path):
         csvfile.write("Roll,Issue,Question,Description,Time,Results")
         for record in index.records:
             result_path = WEB_PREFIX + f"votes/{index.congress}-{index.session}-{record.roll}.csv"
-            row = ",".join([str(record.roll), str(record.info), str(record.question), str(record.description), str(record.time), result_path])
+            row = ",".join([str(record.roll), str(record.info), str(record.question), str(record.description), str(record.time), result_path]) + "\n"
             csvfile.write(row)
     return
 
@@ -76,7 +76,7 @@ def run():
 
     for entry in house_data:
         entry_index = f"votes/{entry.congress}-{entry.session}-index"
-        index_page += f"{entry.congress} | {entry.session} | [\[View\]]({entry_index + '.html'} [\[CSV\]]({entry_index + '.csv'})\n"
+        index_page += f"{entry.congress} | {entry.session} | [\[View\]]({entry_index + '.html'}) [\[CSV\]]({entry_index + '.csv'})\n"
         _save_index(entry, entry_index + '.csv')
         _generate_page(entry, entry_index + '.md')
         
