@@ -1,4 +1,5 @@
-Member,Vote,Party,State,ProfileAdams,Yea,Democratic,NC,/members/A000370
+Member,Vote,Party,State,Profile
+Adams,Yea,Democratic,NC,/members/A000370
 Aderholt,Nay,Republican,AL,/members/A000055
 Aguilar,Yea,Democratic,CA,/members/A000371
 Alford,Nay,Republican,MO,/members/A000379
@@ -132,8 +133,8 @@ Flood,Nay,Republican,NE,/members/F000474
 Foster,Yea,Democratic,IL,/members/F000454
 Foushee,Yea,Democratic,NC,/members/F000477
 Foxx,Nay,Republican,NC,/members/F000450
-Frankel, Lois,Yea,Democratic,FL,/members/F000462
-Franklin, C. Scott,Nay,Republican,FL,/members/F000472
+"Frankel, Lois",Yea,Democratic,FL,/members/F000462
+"Franklin, C. Scott",Nay,Republican,FL,/members/F000472
 Frost,Yea,Democratic,FL,/members/F000476
 Fry,Nay,Republican,SC,/members/F000478
 Fulcher,Nay,Republican,ID,/members/F000469
@@ -144,14 +145,14 @@ Garamendi,Yea,Democratic,CA,/members/G000559
 Garbarino,Nay,Republican,NY,/members/G000597
 Garcia (IL),Yea,Democratic,IL,/members/G000586
 Garcia (TX),Yea,Democratic,TX,/members/G000587
-Garcia, Mike,Nay,Republican,CA,/members/G000061
-Garcia, Robert,Yea,Democratic,CA,/members/G000598
+"Garcia, Mike",Nay,Republican,CA,/members/G000061
+"Garcia, Robert",Yea,Democratic,CA,/members/G000598
 Gimenez,Nay,Republican,FL,/members/G000593
 Golden (ME),Yea,Democratic,ME,/members/G000592
 Goldman (NY),Yea,Democratic,NY,/members/G000599
 Gomez,Yea,Democratic,CA,/members/G000585
-Gonzales, Tony,Nay,Republican,TX,/members/G000594
-Gonzalez, Vicente,Yea,Democratic,TX,/members/G000581
+"Gonzales, Tony",Nay,Republican,TX,/members/G000594
+"Gonzalez, Vicente",Yea,Democratic,TX,/members/G000581
 Good (VA),Nay,Republican,VA,/members/G000595
 Gooden (TX),Nay,Republican,TX,/members/G000589
 Gosar,Nay,Republican,AZ,/members/G000565
@@ -354,8 +355,8 @@ Scholten,Yea,Democratic,MI,/members/S001221
 Schrier,Yea,Democratic,WA,/members/S001216
 Schweikert,Nay,Republican,AZ,/members/S001183
 Scott (VA),Yea,Democratic,VA,/members/S000185
-Scott, Austin,Nay,Republican,GA,/members/S001189
-Scott, David,Yea,Democratic,GA,/members/S001157
+"Scott, Austin",Nay,Republican,GA,/members/S001189
+"Scott, David",Yea,Democratic,GA,/members/S001157
 Self,Nay,Republican,TX,/members/S001224
 Sessions,Nay,Republican,TX,/members/S000250
 Sewell,Yea,Democratic,AL,/members/S001185

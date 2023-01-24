@@ -1,4 +1,5 @@
-Member,Vote,Party,State,ProfileAdams,Yea,Democratic,NC,/members/A000370
+Member,Vote,Party,State,Profile
+Adams,Yea,Democratic,NC,/members/A000370
 Aderholt,Nay,Republican,AL,/members/A000055
 Aguilar,Yea,Democratic,CA,/members/A000371
 Allen,Nay,Republican,GA,/members/A000372
@@ -33,7 +34,7 @@ Bonamici,Yea,Democratic,OR,/members/B001278
 Bost,Nay,Republican,IL,/members/B001295
 Bourdeaux,Yea,Democratic,GA,http://bioguide.congress.gov/scripts/biodisplay.pl?index=B001312
 Bowman,Not Voting,Democratic,NY,/members/B001223
-Boyle, Brendan F.,Yea,Democratic,PA,/members/B001296
+"Boyle, Brendan F.",Yea,Democratic,PA,/members/B001296
 Brady,Nay,Republican,TX,http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000755
 Brooks,Nay,Republican,AL,http://bioguide.congress.gov/scripts/biodisplay.pl?index=B001274
 Brown (MD),Yea,Democratic,MD,http://bioguide.congress.gov/scripts/biodisplay.pl?index=B001304
@@ -94,8 +95,8 @@ Cuellar,Yea,Democratic,TX,/members/C001063
 Curtis,Nay,Republican,UT,/members/C001114
 Davids (KS),Yea,Democratic,KS,/members/D000629
 Davidson,Nay,Republican,OH,/members/D000626
-Davis, Danny K.,Yea,Democratic,IL,/members/D000096
-Davis, Rodney,Nay,Republican,IL,http://bioguide.congress.gov/scripts/biodisplay.pl?index=D000619
+"Davis, Danny K.",Yea,Democratic,IL,/members/D000096
+"Davis, Rodney",Nay,Republican,IL,http://bioguide.congress.gov/scripts/biodisplay.pl?index=D000619
 Dean,Yea,Democratic,PA,/members/D000631
 DeFazio,Yea,Democratic,OR,http://bioguide.congress.gov/scripts/biodisplay.pl?index=D000191
 DeGette,Yea,Democratic,CO,/members/D000197
@@ -109,7 +110,7 @@ Diaz-Balart,Nay,Republican,FL,/members/D000600
 Dingell,Yea,Democratic,MI,/members/D000624
 Doggett,Yea,Democratic,TX,/members/D000399
 Donalds,Nay,Republican,FL,/members/D000032
-Doyle, Michael F.,Yea,Democratic,PA,http://bioguide.congress.gov/scripts/biodisplay.pl?index=D000482
+"Doyle, Michael F.",Yea,Democratic,PA,http://bioguide.congress.gov/scripts/biodisplay.pl?index=D000482
 Duncan,Nay,Republican,SC,/members/D000615
 Dunn,Nay,Republican,FL,/members/D000628
 Ellzey,Nay,Republican,TX,/members/E000071
@@ -131,8 +132,8 @@ Flood,Nay,Republican,NE,/members/F000474
 Flores,Nay,Republican,TX,http://bioguide.congress.gov/scripts/biodisplay.pl?index=F000473
 Foster,Yea,Democratic,IL,/members/F000454
 Foxx,Nay,Republican,NC,/members/F000450
-Frankel, Lois,Yea,Democratic,FL,/members/F000462
-Franklin, C. Scott,Not Voting,Republican,FL,/members/F000472
+"Frankel, Lois",Yea,Democratic,FL,/members/F000462
+"Franklin, C. Scott",Not Voting,Republican,FL,/members/F000472
 Fulcher,Nay,Republican,ID,/members/F000469
 Gaetz,Nay,Republican,FL,/members/G000578
 Gallagher,Nay,Republican,WI,/members/G000579
@@ -147,9 +148,9 @@ Gimenez,Nay,Republican,FL,/members/G000593
 Gohmert,Nay,Republican,TX,http://bioguide.congress.gov/scripts/biodisplay.pl?index=G000552
 Golden,Yea,Democratic,ME,/members/G000592
 Gomez,Yea,Democratic,CA,/members/G000585
-Gonzales, Tony,Nay,Republican,TX,/members/G000594
+"Gonzales, Tony",Nay,Republican,TX,/members/G000594
 Gonzalez (OH),Nay,Republican,OH,http://bioguide.congress.gov/scripts/biodisplay.pl?index=G000588
-Gonzalez, Vicente,Yea,Democratic,TX,/members/G000581
+"Gonzalez, Vicente",Yea,Democratic,TX,/members/G000581
 Good (VA),Nay,Republican,VA,/members/G000595
 Gooden (TX),Nay,Republican,TX,/members/G000589
 Gosar,Nay,Republican,AZ,/members/G000565
@@ -158,7 +159,7 @@ Granger,Nay,Republican,TX,/members/G000377
 Graves (LA),Nay,Republican,LA,/members/G000577
 Graves (MO),Nay,Republican,MO,/members/G000546
 Green (TN),Nay,Republican,TN,/members/G000590
-Green, Al (TX),Yea,Democratic,TX,/members/G000553
+"Green, Al (TX)",Yea,Democratic,TX,/members/G000553
 Greene (GA),Nay,Republican,GA,/members/G000596
 Griffith,Nay,Republican,VA,/members/G000568
 Grijalva,Not Voting,Democratic,AZ,/members/G000551
@@ -251,8 +252,8 @@ Lynch,Yea,Democratic,MA,/members/L000562
 Mace,Nay,Republican,SC,/members/M000194
 Malinowski,Yea,Democratic,NJ,http://bioguide.congress.gov/scripts/biodisplay.pl?index=M001203
 Malliotakis,Nay,Republican,NY,/members/M000317
-Maloney, Carolyn B.,Yea,Democratic,NY,http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000087
-Maloney, Sean,Yea,Democratic,NY,http://bioguide.congress.gov/scripts/biodisplay.pl?index=M001185
+"Maloney, Carolyn B.",Yea,Democratic,NY,http://bioguide.congress.gov/scripts/biodisplay.pl?index=M000087
+"Maloney, Sean",Yea,Democratic,NY,http://bioguide.congress.gov/scripts/biodisplay.pl?index=M001185
 Mann,Nay,Republican,KS,/members/M000871
 Manning,Yea,Democratic,NC,/members/M001135
 Massie,Nay,Republican,KY,/members/M001184
@@ -352,8 +353,8 @@ Schrader,Yea,Democratic,OR,http://bioguide.congress.gov/scripts/biodisplay.pl?in
 Schrier,Yea,Democratic,WA,/members/S001216
 Schweikert,Nay,Republican,AZ,/members/S001183
 Scott (VA),Yea,Democratic,VA,/members/S000185
-Scott, Austin,Nay,Republican,GA,/members/S001189
-Scott, David,Yea,Democratic,GA,/members/S001157
+"Scott, Austin",Nay,Republican,GA,/members/S001189
+"Scott, David",Yea,Democratic,GA,/members/S001157
 Sessions,Nay,Republican,TX,/members/S000250
 Sewell,Yea,Democratic,AL,/members/S001185
 Sherman,Yea,Democratic,CA,/members/S000344
