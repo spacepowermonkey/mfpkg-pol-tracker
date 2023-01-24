@@ -1,3 +1,4 @@
+import csv
 import json
 import os
 
@@ -14,20 +15,33 @@ WEB_PREFIX = "https://spacepowermonkey.com/mfpkg-pol-tracker/"
 
 def _save_record(record, path):
     with open("/docs/" + path, "w") as csvfile:
-        csvfile.write("Member,Vote,Party,State,Profile")
+        csvwriter = csv.DictWriter(csvfile, ["Member", "Vote", "Party", "State", "Profile"])
+        csvwriter.writeheader()
         for vote in record.votes:
-            row = ",".join([vote.member, vote.vote, vote.party, vote.state, vote.profile]) + "\n"
-            csvfile.write(row)
+            csvwriter.writerow({
+                "Member": vote.member,
+                "Vote": vote.vote,
+                "Party": vote.party,
+                "State": vote.state,
+                "Profile": vote.profile,
+            })
     return
 
 
 def _save_index(index, path):
     with open("/docs/" + path, "w") as csvfile:
-        csvfile.write("Roll,Issue,Question,Description,Time,Results")
+        csvwriter = csv.DictWriter(csvfile, ["Roll", "Issue", "Question", "Description", "Time", "Results"])
+        csvwriter.writeheader()
         for record in index.records:
             result_path = WEB_PREFIX + f"votes/{index.congress}-{index.session}-{record.roll}.csv"
-            row = ",".join([str(record.roll), str(record.info), str(record.question), str(record.description), str(record.time), result_path])
-            csvfile.write(row)
+            csvwriter.writerow({
+                "Roll": record.roll,
+                "Issue": record.info,
+                "Question": record.question,
+                "Description": record.description,
+                "Time": record.time,
+                "Results": result_path,
+            })
     return
 
 def _generate_page(index, path):
