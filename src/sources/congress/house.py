@@ -1,6 +1,5 @@
 import bs4
 import dataclasses
-import json
 import re
 import requests
 
@@ -42,6 +41,16 @@ class VoteRecord(object):
         self.votes = []
         return
 
+class MemberRecord(object):
+    def __init__(self):
+        self.name = None
+        self.district = None
+        self.party = None
+        self.hometown = None
+        self.swear_in = None
+        self.ref = None
+        return
+
 
 class ClerkRecord(object):
     def __init__(self, congress, session):
@@ -49,6 +58,10 @@ class ClerkRecord(object):
         self.session = session
 
         self.records = []
+        self.people = []
+
+
+        self._person_refs = set()
 
         return
     
@@ -56,7 +69,9 @@ class ClerkRecord(object):
         listings = []
         listings = self._fetch_listing()
         for vote_stub in listings:
-            self._fetch_vote(vote_stub)        
+            self._fetch_vote(vote_stub)
+        for reference in self._person_refs:
+            self._fetch_person(reference)
         return
 
 
@@ -126,11 +141,41 @@ class ClerkRecord(object):
                 state = row.find("td", attrs={"data-label":"state", "class":"visible-xs"}).text
 
                 record.votes.append( VoteEntry(name, vote, party, state, profile))
+
+                self._person_refs.add(profile)
         
         self.records.append( record )
         return
 
 
-    def fetch_person(self, reference):
-        # Get everything from member detail view
+    def _fetch_person(self, reference):
+        member = MemberRecord()
+        member.ref = reference
+
+        if member.ref[:4] == "http":
+            return
+        else:
+            url = CLERK_URL + member.ref
+
+        print(url)
+
+        response = requests.get(url)
+        response.raise_for_status()
+
+
+        page_html = response.text
+        page_soup = bs4.BeautifulSoup(page_html, features="html.parser")
+        bio_info = page_soup.find("div", "about_bio-copy")
+        
+        member.name = bio_info.find("h1").text.strip()
+        
+        district, hometown, swear_in = bio_info.findAll("p")
+        
+        member.district, member.party = district.text.split(",", maxsplit=1)
+        member.district = " - ".join(list(map(lambda x: x.strip(), member.district.split("–", maxsplit=1))))
+        member.party = member.party.strip()
+        member.hometown = hometown.text.split(":", maxsplit=1)[1].strip()
+        member.swear_in = swear_in.text.split(":", maxsplit=1)[1].strip()
+
+        self.people.append(member)
         return

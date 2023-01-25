@@ -8,6 +8,8 @@ This congress voted on the following issues:
 
 Roll | Issue | Question | Description | Time | Results
  --- | --- | --- | --- | --- | --- 
+33 | Bill Number: H. R. 300 |  On Motion to Suspend the Rules and Pass, as Amended | Settlement Agreement Information Database Act of 2023 | Jan 24, 2023, 07:04 PM | [\[CSV\]](votes/118-1-33.csv)
+32 | Bill Number: H. R. 159 |  On Motion to Suspend the Rules and Pass, as Amended | Chance to Compete Act of 2023 | Jan 24, 2023, 06:52 PM | [\[CSV\]](votes/118-1-32.csv)
 31 | Bill Number: H. R. 22 |  On Passage | Protecting America’s Strategic Petroleum Reserve from China Act | Jan 12, 2023, 11:02 AM | [\[CSV\]](votes/118-1-31.csv)
 30 | Bill Number: H. Con. Res. 3 |  On Agreeing to the Resolution | Expressing the sense of Congress condemning the recent attacks on pro-life facilities, groups, and churches | Jan 11, 2023, 04:38 PM | [\[CSV\]](votes/118-1-30.csv)
 29 | Bill Number: H. R. 26 |  On Passage | Born-Alive Abortion Survivors Protection Act | Jan 11, 2023, 04:29 PM | [\[CSV\]](votes/118-1-29.csv)
@@ -36,6 +38,4 @@ Roll | Issue | Question | Description | Time | Results
 6 | None |  Election of the Speaker |  | Jan 04, 2023, 02:40 PM | [\[CSV\]](votes/118-1-6.csv)
 5 | None |  Election of the Speaker |  | Jan 04, 2023, 01:12 PM | [\[CSV\]](votes/118-1-5.csv)
 4 | None |  Election of the Speaker |  | Jan 03, 2023, 04:55 PM | [\[CSV\]](votes/118-1-4.csv)
-3 | None |  Election of the Speaker |  | Jan 03, 2023, 03:16 PM | [\[CSV\]](votes/118-1-3.csv)
-2 | None |  Election of the Speaker |  | Jan 03, 2023, 01:39 PM | [\[CSV\]](votes/118-1-2.csv)
 
